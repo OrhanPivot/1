@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+div#categories{
+    display: flex;
+    float: right;
+}
+
+div#logo a#logo_for_html{
+    text-decoration: none;
+    color: #fffef6;
+}
+
+div#logo{
+    background-color: #ff9848;
+    margin-top: 35px;
+    margin-left: 55px;
+    margin-right: 1350px;
+    padding: 15px 20px;
+    float: left;
+}
+
+li img[alt="home"]{
+    width: 20px;
+    height: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+li img[alt="Aboutus"]{
+    width: 20px;
+    height: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+ul li img{
+    width: 20px;
+    height: 20px;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    padding: 20px;
+    margin-right: 25px;
+}
+
+ul li:hover{
+    background-color: rgba(76,92,189,0.9);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+li.active{
+    margin-top: -20px;
+}
+
+div#Banner{
+    padding: 70px;
+    background-color: grey;
+}
+
+div#logo{
+    margin-top: -40px;
+    cursor: pointer;
+}
+
+div#categories{
+    margin-top: -110px;
+}
+
+div#logo:hover{
+    background-color: #000000;
+    transition: 0.75s;
+}
+
+div.icerik_kismi{
+    background-color: aquamarine;
+    padding: 200px 250px;
+    text-align: center;
+}
+
+div.footer{
+    background-color: aqua;
+    padding: 53px 50%;
+}
